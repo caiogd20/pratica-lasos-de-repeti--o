@@ -3,7 +3,7 @@
 # Autor: caio Gonçalves Dias
 soma = 0
 for i in range(10):
-    numero = int(input("Digite um número {}°: ".format(i + 1)))
+    numero = int(input("Digite o {}° número : ".format(i + 1)))
     if i == 0:
         soma = numero
     else:
